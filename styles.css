@@ -1,0 +1,160 @@
+body {
+    background-color: #B9B28A;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.navigation {
+    margin-left: 25px;
+    border: 4px solid #504B38;
+    align-items: center;
+    width: 95%;
+}
+
+.navigation h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #504B38;
+}
+
+.h5 {
+    color: #504B38;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.game1,
+.game2,
+.game3,
+.game4,
+.game5 {
+    background-color: white;
+    border-radius: 20px;
+    width: 20%;
+    height: 200px;
+    margin-left: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+}
+
+.h2 {
+    font-size: 1.6rem;
+}
+
+.click {
+    height: 50px;
+    width: 35%;
+    background-color: aquamarine;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.click:hover {
+    background-color: aqua;
+}
+
+.row1,
+.row2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-top: 23px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 1.2rem;
+}
+.siciel{
+    margin-left: 45%;
+}
+.icons{
+   align-items: center;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    gap: 100px;
+}
+.icons:hover{
+    color: #B9B28A;
+}
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .game1, .game2, .game3, .game4, .game5 {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    .navigation h3 {
+        font-size: 1.8rem;
+    }
+    .h5 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    .siciel{
+        margin-left: 42%;
+    }
+}
+
+@media (max-width: 768px) {
+    .game1, .game2, .game3, .game4, .game5 {
+        width: 45%;
+    }
+    .click {
+        width: 50%;
+    }
+    .navigation h3 {
+        font-size: 1.6rem;
+    }
+    .h5 {
+        font-size: 1.3rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .game1, .game2, .game3, .game4, .game5 {
+        width: 80%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .click {
+        width: 70%;
+    }
+    .navigation{
+        width: 85%;
+    }
+    .navigation h3 {
+        font-size: 1.4rem;
+    }
+    .h5 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    .siciel{
+        margin-left: 35%;
+    }
+}
